@@ -1,7 +1,7 @@
 import React from 'react'
 import CustomHeading from './CustomHeading'
-import { ACCORDION_DATA_LIST, FAQ_LIST } from '../utils/helper'
 import { useState } from "react";
+import { ACCORDION_DATA_LIST, FAQ_LIST } from '../components/utils/helper';
 
 const KeyFaq = () => {
 

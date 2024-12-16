@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from './common/Header'
-import CustomPara from './common/CustomPara'
-import CustomButton from './common/CustomButton'
+import Header from '../common/Header'
+import CustomPara from '../common/CustomPara'
+import CustomButton from '../common/CustomButton'
 
 const Hero = () => {
     return (
