@@ -7,17 +7,20 @@ module.exports = {
     extend: {
       backgroundImage: {
         "hero-bg": "url('../public/assets/image/png/hero-bg-img.png')",
-        "hero-bg-2": "url('../public/assets/image/png/hero-text-bg.png')",
       },
       colors: {
         "blue": "#191A42",
         "lightlavender": "#ece8f8",
-        "deepBlue": "#023da0",
-        "orange": "#F88011",
-        "gray": "#E3E4E6",
+        "fadeBlue": "#24254B",
+        "Periwinkle": "#7C7EB9",
+        "aquaBlue": "#48C3D7",
+        "deepBlue": "#111235",
+        "gray": "#C9CAD4",
+        "lightGray": "#F7F9FB",
+        "lightBlue": "#ECF2F8",
       },
       boxShadow: {
-        'customOne': '0px 0px 13.9px 0px rgba(0, 0, 0, 0.1)',
+        'customOne': '0px 10px 40px 0px rgba(65, 86, 107, 0.05)',
       },
       fontFamily: {
         "serrat": ['Montserrat', 'sans-serif']

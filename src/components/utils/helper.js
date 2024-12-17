@@ -1,21 +1,27 @@
+import lottie from '../../lottie/search (1).json'
+import lottieTwo from '../../lottie/file server (1).json'
+import lottieThree from '../../lottie/server search (1).json'
 
 export const KEY_SEMANTICS_LIST = [
     {
         image: "./assets/image/png/keysemantics-card-img-1.png",
         description: "Websites, documents and images are pushed into our Analysis API.",
         alt: "card-img-1",
+        lottie:lottieTwo,
         bgcolor: { backgroundColor: "#ece8f8" },
     },
     {
         image: "./assets/image/png/keysemantics-card-img-2.png",
         description: "Using highly optimized and trained AI models, we analyze, vectorize and extract semantic information and relations from your content.",
         alt: "card-img-2",
+        lottie:lottie,
         bgcolor: { backgroundColor: "#e3f7fa" },
     },
     {
         image: "./assets/image/png/keysemantics-card-img-3.png",
-        description: "Our enterprise-grade semantic search engine allows you to query your content in many ways. You’ll be amazed by the speed, precision and relevance of the results!",
+        description: "Our enterprise-grade semantic search engine allows you to query your content in many ways. You'll be amazed by the speed, precision and relevance of the results!",
         alt: "card-img-3",
+        lottie:lottieThree,
         bgcolor: { backgroundColor: "#fce7ef" },
     }
 ];

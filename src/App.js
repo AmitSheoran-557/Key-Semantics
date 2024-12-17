@@ -1,16 +1,22 @@
 import './App.css';
-import KeyFaq from './common/KeyFaq';
+import Footer from './common/Footer';
+import KeyFaq from './components/KeyFaq';
+import DataSecurity from './components/DataSecurity';
 import HeadlessSearch from './components/HeadlessSearch';
 import Hero from './components/Hero';
 import SemanticsWork from './components/SemanticsWork';
+import ApiLottie from './components/ApiLottie';
 
 function App() {
   return (
     <>
       <Hero />
       <SemanticsWork />
+      <ApiLottie/>
       <KeyFaq />
-      {/* <HeadlessSearch/> */}
+      <HeadlessSearch />
+      <DataSecurity />
+      <Footer />
     </>
   );
 }
