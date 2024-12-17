@@ -11,7 +11,7 @@ const Footer = () => {
         <img className='absolute pointer-events-none xl:max-w-[137px] lg:max-w-28 md:max-w-20 sm:max-w-16 max-w-12 bottom-0 right-0' src="./assets/image/png/footer-bg-shape-2.png" alt="side-img" />
         <div className='relative z-50 mx-auto flex flex-col items-center'>
           <CustomHeading className="lg:!mb-2 mb-1 !text-white" tittle="How does KeySemantics work?" />
-          <CustomPara className="lg:!mb-16 md:!mb-12 sm:!mb-10 !mb-7 lg:!text-base !text-sm !text-white" tittle="Request a demo for your team and let us show you how KeySemantics can help your company" />
+          <CustomPara className="lg:!mb-16 md:!mb-12 sm:!mb-10 !mb-7 lg:!text-base !text-sm !text-white !font-normal" tittle="Request a demo for your team and let us show you how KeySemantics can help your company" />
           <form className='max-w-lg'>
             <input type="text" required placeholder="Name" className="placeholder-Periwinkle max-w-xs w-full bg-fadeBlue lg:py-3.5 py-3 lg:px-5 px-4 rounded-full mb-2 text-Periwinkle outline-none" name="name" />
             <input type="email" required placeholder="Email" className="placeholder-Periwinkle max-w-xs w-full bg-fadeBlue lg:py-3.5 py-3 lg:px-5 px-4 rounded-full mb-2 text-Periwinkle outline-none" name="email" />
